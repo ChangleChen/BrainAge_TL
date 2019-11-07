@@ -41,7 +41,7 @@ Appropriate transfer learning approach and suitable tuning data size should be c
 If you want to use the current pretrained models we provided, your data have to be analyzed and organized according to the outcomes of [Tract-based Automatic Analysis](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.22854).
 Please feel free to get in touch with us if you are interested in this method.
 
-Or, you can use the our brain age modeling approach to train your regression model, then using the transfer learning analysis to fine-tune your model adapting to the data from other data.
+Or, you can use our brain age modeling method to train your regression model based on the data you process on your own way, then using the transfer learning analysis to fine-tune your model adapting to the data from other data.
 This modeling framework is not limited to the certain image modality or the task. If you need the technique support, welcome to contact us.
 
 
