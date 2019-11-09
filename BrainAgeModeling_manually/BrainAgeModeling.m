@@ -103,11 +103,8 @@ if nargin == 3
     caxis([-25,25]);
     set(gca,'fontsize',14,'fontweight','bold'); grid on;
     set(gca,'color',[0.95,0.95,0.95]);
-    tPAD = predict_age-true_age;
-    coor = [true_age,predict_age,tPAD];
     [r,p]=corr(true_age,tPAD);
     fprintf('Age-related bias: %g, with p-value %g \n',r,p)
-    page_wb = predict_age;
     fprintf('Mean PAD: %g ... \n',mean(tPAD));
 end
 end
