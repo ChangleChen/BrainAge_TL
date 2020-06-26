@@ -2,6 +2,7 @@
 
 These scripts are used for generalizing the dMRI-based brain age prediction model to new data sources via transfer learning. 
 The pretrained model is developed based on the data from [Cam-CAN repository](https://www.cam-can.org/)
+(Full paper: [Link](https://www.sciencedirect.com/science/article/pii/S1053811920303189))
 
 ## Research Abstract
 **Title:** Generalization of diffusion magnetic resonance imaging–based brain age prediction model through transfer learning
